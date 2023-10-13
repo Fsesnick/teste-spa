@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url('mountains-universe-1.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /*  makes the background fixed */
+    height: 100vh; /*set the height to full viewport height */
+    font-family: Roboto;
+    display: grid;
+    color: #C4C4CC;
+   
+  
+}
+
+nav {
+    display: flex;
+    width: 1280px;
+    height: 122px;
+    padding: .4rem 719px 40px 72px;
+    align-items: center;
+    flex-shrink: 0;
+   
+}
+a{
+    border-radius: 0.32rem;
+    padding: .8rem .4rem .4rem;
+    color: var(--neutral-colors-white, #FFF);
+    text-decoration: none;
+    font-size: 21px;
+    font-style: normal;
+    padding: 10px ;
+
+}
+.center-container {
+    text-align: center;
+}
+
+.center-container p {
+    margin-bottom: 24px; /* Optional: Adjust spacing between text and button */
+    font-size: 48px;
+}
+.center-container button {
+   
+    font-size: 18px;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: transparent; 
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    
+    line-height: 24px; /* 171.429% */
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;    
+}
+.texto-universo{
+    
+    padding: 16px 530px 285px 102px;
+    align-items: center;
+    justify-content: center;
+    line-height: 160%;
+    
+}
+h1{
+    font-size: 48px;
+    font-style: normal;
+    padding: 12px 102px 32px;
+}
